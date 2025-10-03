@@ -1,0 +1,28 @@
+From 6d957de06f3f878f1be2598ebb50c67996b0e4c6 Mon Sep 17 00:00:00 2001
+From: duwi haryanto <haryanto@uii.ac.id>
+Date: Fri, 3 Oct 2025 10:56:12 +0700
+Subject: [PATCH] Update installation instructions to include database seeding
+
+---
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/README.md b/README.md
+index b9bed83..71a50c3 100644
+--- a/README.md
++++ b/README.md
+@@ -50,9 +50,9 @@ ## Cara Install
+    php artisan key:generate
+    ```
+ 
+-5. **Migrasi Database**
++5. **Migrasi Database & Seed Data**
+    ```bash
+-   php artisan migrate
++   php artisan migrate --seed
+    ```
+ 
+ 6. **Build Asset**
+-- 
+2.41.0
+
