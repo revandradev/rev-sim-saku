@@ -39,6 +39,7 @@ class UserPanelProvider extends PanelProvider
             ->colors([
                 'primary' => Color::Sky,
             ])
+            ->sidebarCollapsibleOnDesktop()
             // ->topNavigation()
             // ->font('Roboto', provider: SpatieGoogleFontProvider::class)
             ->font('Ubuntu')
