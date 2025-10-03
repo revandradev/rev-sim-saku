@@ -50,9 +50,9 @@ ISaku membantu Anda mencatat transaksi keuangan, mengelola data diri, serta meng
    php artisan key:generate
    ```
 
-5. **Migrasi Database**
+5. **Migrasi Database & Seed Data**
    ```bash
-   php artisan migrate
+   php artisan migrate --seed
    ```
 
 6. **Build Asset**
